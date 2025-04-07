@@ -63,6 +63,7 @@ const mapIcon = {
   User,
   TrendCharts,
 };
+
 onMounted(async () => {
   const res = await axios.get("/adminapi/rights");
   //console.log(res.data)
