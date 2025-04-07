@@ -1,5 +1,6 @@
 const ClassModel = require("../model/ClassModel");
 
+
 module.exports = {
   getList(){
     return ClassModel.find()
